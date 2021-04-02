@@ -1,0 +1,116 @@
+.content {
+    height: 92.4vh;
+    color: #ffffff;
+    background: #3c096c;
+}
+.content h1 {
+    padding: 20px;
+}
+.manage-product{
+    color: #ffffff;
+    display: block;
+    font-size: 16px;
+    padding: 15px 0;
+    cursor: pointer;
+    text-decoration: none;
+}
+.manage-product .admin-icon{
+    margin-right: 5px;
+}
+.admin-btn{
+    color: #ffffff;
+    display: block;
+    font-size: 16px;
+    padding: 15px 0;
+    cursor: pointer;
+    text-decoration: none;
+}
+.admin-btn .admin-icon{
+    margin-right: 5px;
+}
+.admin-btn:hover{
+    color: #ffffff;
+    background: #491d74;
+    text-decoration: none;
+}
+.manage-product:hover{
+    color: #ffffff;
+    background: #491d74;
+    text-decoration: none;
+}
+.content .admin-btn {
+    font-size: 16px;
+    padding: 15px 0;
+    cursor: pointer;
+}
+.content .admin-btn .admin-icon {
+    margin-right: 5px;
+}
+.content .admin-btn:hover {
+    background: #491d74;
+}
+.add-product {
+    height: 92.4vh;
+    background: #fcf9ff;
+}
+.add-product .top h2 {
+    font-size: 22px;
+    font-weight: 700;
+    background: #ffffff;
+    padding: 20px 0 20px 30px;
+    margin-bottom: 40px;
+}
+.add-product-form {
+    padding: 20px 0;
+    background: #ffffff;
+    width: 70%;
+    margin: 0 auto;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.form {
+    width: 70%;
+    margin: 0 auto;
+}
+.form label {
+    display: block;
+    margin-top: 30px;
+    font-weight: 700;
+}
+.photo {
+    width: 155px;
+    background-color: indigo;
+    color: white;
+    padding: 0.5rem;
+    font-family: sans-serif;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+.photo:hover{
+    background-color: rgb(103, 23, 160);
+}
+.form input:last-child {
+    margin-bottom: 30px;
+}
+.upload-icon{
+    margin-left: 5px;
+}
+@media (min-width: 769px) and (max-width: 992px){
+    .content {
+        height: 45vh !important;
+    }
+}
+@media (min-width: 576px) and (max-width: 768px){
+    .content {
+        height: 45vh !important;
+    }
+}
+@media (max-width: 575.98px){
+    .content {
+        height: 45vh !important;
+    }
+}

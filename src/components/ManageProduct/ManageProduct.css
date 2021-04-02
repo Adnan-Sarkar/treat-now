@@ -1,0 +1,124 @@
+.content {
+    height: 92.4vh;
+    color: #ffffff;
+    background: #3c096c;
+}
+.content h1 {
+    padding: 20px;
+}
+.manage-product{
+    color: #ffffff;
+    display: block;
+    font-size: 16px;
+    padding: 15px 0;
+    cursor: pointer;
+    text-decoration: none;
+}
+.manage-product:hover{
+    color: #ffffff;
+    background: #491d74;
+    text-decoration: none;
+}
+.admin-btn{
+    color: #ffffff;
+    display: block;
+    font-size: 16px;
+    padding: 15px 0;
+    cursor: pointer;
+    text-decoration: none;
+}
+.admin-btn .admin-icon{
+    margin-right: 5px;
+}
+.admin-btn:hover{
+    color: #ffffff;
+    background: #491d74;
+    text-decoration: none;
+}
+.content .admin-btn {
+    font-size: 16px;
+    padding: 15px 0;
+    cursor: pointer;
+}
+.content .admin-btn .admin-icon {
+    margin-right: 5px;
+}
+.content .admin-btn:hover {
+    background: #491d74;
+}
+.add-product {
+    height: 92.4vh;
+    background: #fcf9ff;
+}
+.add-product .top h2 {
+    font-size: 22px;
+    font-weight: 700;
+    background: #ffffff;
+    padding: 20px 0 20px 30px;
+    margin-bottom: 40px;
+}
+.manage-product-table{
+    margin: 0;
+}
+.manage-product-table thead{
+    font-size: 18px;
+    color: #023047;
+    width: 100%;
+    border: none;
+    background: #eaebec;
+    border-radius: 13px;
+    -webkit-border-radius: 13px;
+    -moz-border-radius: 13px;
+    -ms-border-radius: 13px;
+    -o-border-radius: 13px;
+}
+.manage-product-table thead th{
+    padding: 15px 0;
+}
+.manage-product-table thead tr th:nth-child(1){
+    width: 45%;
+    text-align-last: left;
+    padding-left: 30px;
+}
+.manage-product-table thead tr th:nth-child(2){
+    width: 19%;
+}
+.manage-product-table thead tr th:nth-child(3){
+    width: 20%;
+}
+.manage-product-table thead tr th:nth-child(4){
+    width: 150px;
+}
+.manage-product-table tbody{
+    font-size: 18px;
+    font-weight: 700;
+    color: #023e8a;
+}
+.manage-product-table tbody tr td{
+    padding: 15px 0;
+}
+.manage-product-table tbody tr td:nth-child(1){
+    padding: 0 30px;
+}
+.manage-product-table tbody tr td:nth-child(2){
+    padding-left: 10px;
+}
+.manage-product-table tbody tr td button{
+    margin: 0 5px;
+    color: #ffffff;
+}
+@media (min-width: 769px) and (max-width: 992px){
+    .content {
+        height: 45vh !important;
+    }
+}
+@media (min-width: 576px) and (max-width: 768px){
+    .content {
+        height: 45vh !important;
+    }
+}
+@media (max-width: 575.98px){
+    .content {
+        height: 45vh !important;
+    }
+}

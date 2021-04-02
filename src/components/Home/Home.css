@@ -1,0 +1,19 @@
+.search-box{
+    width: 40%;
+    height:40px;
+    display: flex;
+    margin: 0 auto;
+    margin-top:30px;
+    margin-bottom: 40px;
+}
+.search-box input{
+    width: 70%;
+    height: 40px;
+    border-right: none;
+}
+
+@media (max-width: 575.98px) {
+    .product-card{
+        margin: 0 30px;
+    }
+}

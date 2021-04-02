@@ -1,0 +1,16 @@
+.order-tittle{
+    padding: 20px 0;
+}
+.order-tittle span{
+    color: #7209b7;
+}
+@media (min-width: 576px) and (max-width: 768px){
+    .order-tittle{
+        text-align: center;
+    }
+}
+@media (max-width: 575.98px){
+    .order-tittle{
+        text-align: center;
+    }
+}

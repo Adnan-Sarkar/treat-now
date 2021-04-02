@@ -1,0 +1,63 @@
+.login-form{
+    text-align: center;
+    width: 400px;
+    height:400px;
+    margin: 0 auto;
+    padding-top: 30px;
+    margin-top: 70px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.login-form h1{
+    color: #003049;
+    font-weight: 700;
+    padding-bottom: 95px;
+}
+.google-button{
+    font-size: 16px;
+    font-weight: 600;
+    margin: 5px 0;
+    width: 300px;
+    height:50px;
+    border-radius: 57px;
+    -webkit-border-radius: 57px;
+    -moz-border-radius: 57px;
+    -ms-border-radius: 57px;
+    -o-border-radius: 57px;
+    border: 1px solid #C7C7C7;
+    background: transparent;
+    position: relative;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+.google-button:hover{
+    background: #DB4437;
+    color: #fff;
+}
+.social-icon{
+    color: #DB4437;
+    font-size: 16px;
+    position: absolute;
+    left: 25px;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+.google-button:hover .social-icon{
+    color: #ffffff;
+}

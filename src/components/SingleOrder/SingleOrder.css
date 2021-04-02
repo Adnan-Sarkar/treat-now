@@ -1,0 +1,63 @@
+.orderDetails{
+    cursor: pointer;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+    margin: 40px 0;
+}
+.orderDetails:hover{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 10px 4px;
+}
+.order-details-table{
+    margin-right: 0;
+}
+.order-details-table thead{
+    font-size: 18px;
+    color: #6c757d;
+    border-bottom: 1px solid rgb(233, 233, 233);
+    background: #f8f9fa;
+}
+.order-details-table thead tr{
+    width: 100%;
+}
+.order-details-table thead tr th{
+    padding: 15px 0;
+}
+.order-details-table thead tr th:nth-child(1){
+    width: 50%;
+    padding-left: 50px;
+}
+.order-details-table thead tr th:nth-child(2){
+    width: 44%;
+}
+.order-details-table thead tr th:nth-child(3){
+    text-align: center;
+    width: 6%;
+    padding-right: 30px;
+}
+.order-details-table tbody{
+    font-size: 18px;
+    font-weight: 700;
+}
+.order-details-table tbody tr td{
+    padding: 15px 0;
+}
+.order-details-table tbody tr td:nth-child(1){
+    padding-left: 50px;
+    padding-right: 20px;
+}
+.order-details-table tbody tr td:nth-child(2){
+    padding-right: 30px;
+}
+.order-details-table tbody tr td:nth-child(3){
+    text-align: center;
+    padding-right: 30px;
+}
